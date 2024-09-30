@@ -5,7 +5,7 @@
 Fetches data from source and updates a Spotify playlist. 
 If the data fetching or playlist updating fails, it sends an email notification.
 
-In this case the source for playlist is the Turbo Top chartlist.
+In this case the source for playlist is the Turbo Top chartlist (see https://player.antyradio.pl/Turbo-Top)
 
 ```mermaid
 graph TD
