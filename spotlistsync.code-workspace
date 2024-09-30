@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.cwd": "${workspaceFolder}",
+		"terminal.integrated.defaultProfile.linux": "zsh",
+		"terminal.integrated.env.linux": {
+			"ZSH_INIT_COMMAND": "source ${workspaceFolder}/venv/bin/activate"
+		},
+		"python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+		"search.useIgnoreFiles": false,
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"extensions.experimental.deferredStartupFinishedActivation": true
+	},
+	"pytest.command": "${workspaceFolder}/venv/bin/pytest",
+	"files.exclude": {
+        "**/venv": true,
+        "**/venv/**": true,
+        "**/.pytest_cache/**": true,
+        "**/__pycache__/**": true
+    }
+}

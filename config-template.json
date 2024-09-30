@@ -1,0 +1,15 @@
+{
+    "mail": {
+        "user": "some-mail@gmail.com",
+        "pass": "somepassword",
+        "recepient": "somerecepient@gmail.com",
+        "failed_message_topic": "failed message topic",
+        "failed_message": "failes message"
+    }, 
+    "spotify": {
+        "playlist_name": "Playlist Name",
+        "client_id": "1341rfwsf048932482969",
+        "client_secret": "1349080950275027509252",
+        "redirect_uri": "http://localhost:8888/callback"
+    }
+}
