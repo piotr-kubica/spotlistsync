@@ -40,3 +40,8 @@ graph TD
 2. rename `config-template.json` to `config.json` 
 3. update the `config.json` accordingly to your gmail client (see: https://developers.google.com/gmail/api/quickstart/python) and spotify app (see: https://developer.spotify.com/dashboard/)
 4. run `python update_playlist.py`
+
+## Example result
+
+![updated playlist](https://github.com/piotr-kubica/spotlistsync/blob/main/exmaple.png)
+
