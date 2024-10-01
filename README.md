@@ -9,7 +9,7 @@ In this case the source for playlist is the Turbo Top chartlist (see https://pla
 
 ```mermaid
 graph TD
-    A[Fetch Data] --> B{Is Data Valid?}
+    A[Fetch Song Charts Data] --> B{Is Data Valid?}
     B -->|No| C[Send Failure Email]
     B -->|Yes| D[Connect to Spotify]
     D --> E[Update Spotify Playlist with Turbo Top Data]
