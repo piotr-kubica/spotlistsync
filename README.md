@@ -37,7 +37,7 @@ graph TD
 
 ## Installation
 1. Clone this repository
-2. Install requirements [TODO]
+2. Install dependencies from requirements.txt
 3. rename `config-template.json` to `config.json` 
 4. update the `config.json` accordingly to your gmail client (see: https://developers.google.com/gmail/api/quickstart/python) and spotify app (see: https://developer.spotify.com/dashboard/)
 5. run `python update_playlist.py`
