@@ -1,6 +1,6 @@
 # Spotify Playlist Updater
 
-## What it does.
+## What it does
 
 Fetches data from source and updates a Spotify playlist. 
 If the data fetching or playlist updating fails, it sends an email notification.
